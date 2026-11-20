@@ -1,0 +1,9 @@
+# What crestore writes beside its scripts while it runs: kept on this machine alone.
+registry/
+wake/
+vscode-pending/
+backup-*/
+*.log
+# Never committed: local secrets and installed packages.
+.secrets/
+node_modules/

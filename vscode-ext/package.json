@@ -1,0 +1,21 @@
+{
+  "name": "claude-session-restore",
+  "displayName": "Claude Session Restore",
+  "description": "Spawns integrated terminals resuming Claude Code sessions queued by crestore (~/.claude/session-restore/vscode-pending).",
+  "version": "0.1.0",
+  "publisher": "gjovanov",
+  "engines": { "vscode": "^1.75.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "claude-session-restore.check",
+        "title": "Claude Session Restore: Check Queue"
+      }
+    ]
+  },
+  "capabilities": {
+    "untrustedWorkspaces": { "supported": false }
+  }
+}
