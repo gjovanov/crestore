@@ -330,7 +330,9 @@ without it the pointer test is skipped. With long paths off (`LongPathsEnabled` 
 ## Background
 
 crestore was built for [Roomler](https://github.com/gjovanov/roomler-ai)'s development, where many Claude Code sessions
-run at once.
+run at once. Its design history and field log are in Roomler's spec
+[FR-8](https://github.com/gjovanov/roomler-ai/blob/master/docs/fr/FR-8-claude-session-restore.md). That spec describes
+the author's own setup, so where its defaults differ from the ones above, they are settings here.
 
 ## License
 
